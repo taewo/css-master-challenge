@@ -8,11 +8,22 @@ body {
 	margin: 0 auto;
 	font-size: 14px;
 }
+.clip-wrapper {
+	position: relative;
+}
+
 .clip {
 	position: absolute;
-	top: -98px;
-	left: 38%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	width: 300px;
+	/* position: absolute;
+	top: -98px;
+	left: 0;
+	width: 300px;
+	right: 0;
+	margin: auto; */
 }
 
 h1 {
@@ -26,9 +37,13 @@ h3 {
 }
 
 .container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	background-color: white;
 	max-width: 600px;
 	margin: 0 auto;
-	border: 1px solid red;
+	box-shadow: 30px 10px 15px -5px #e1dbd4;
 }
 
 .title {
@@ -61,10 +76,11 @@ h3 {
 	margin-top: 40px;
 }
 .circle {
-	/* border: 1px solid gray; */
+	width: 24vw;
+	max-width: 170px;
+	height: 24vw;
+	max-height: 170px;
 	border-radius: 50%;
-	width: 170px;
-	height: 170px;
 	margin-bottom: 20px;
 }
 
