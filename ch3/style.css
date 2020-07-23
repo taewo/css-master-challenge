@@ -1,0 +1,46 @@
+.gray {
+	background: #dae7de;
+}
+.green {
+	background: #008a69;
+}
+.red {
+	background: #f44607;
+}
+.pink {
+	background: #f7abc5;
+}
+.purple {
+	background: #5f60a9;
+}
+.orange {
+	background: #ffc129;
+}
+.deeppink {
+	background: #f97374;
+}
+.font-red {
+	color: #f44607;
+}
+.font-white {
+	color: white;
+}
+.grid {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	font-size: 40px;
+	font-weight: 500;
+}
+.forth {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	font-size: 20px;
+}
+.grid > div:not(.forth),
+.forth > div {
+	display: grid;
+	place-items: center;
+}
