@@ -5,69 +5,39 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
     <div class="container">
-      <nav class="nav-1">
-        <ul>
-          <li>주식회사
-            <div class="dropdown-menu">
-              <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-              </ul>
+      <nav>
+        <ul class="nav">
+          <li>home</li>
+          <li>news</li>
+          <li>contact</li>
+          <li>dropdown
+            <i class="fa fa-caret-down"></i>
+            <div class="dropdown">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
             </div>
           </li>
-          <li>소개
-            <div class="dropdown-menu">
-              <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-              </ul>
-            </div>
-          </li>
-          <li>제품
-            <div class="dropdown-menu">
-              <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-              </ul>
-            </div>
-          </li>
-          <li>서비스
-            <div class="dropdown-menu">
-              <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-              </ul>
-            </div>
-          </li>
-          <li>고객지원
-            <div class="dropdown-menu">
-              <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-              </ul>
-            </div>
+          <li>about</li>
+          <li class="btn-icon">
+            <button onclick="handleBtn()">&#9776;</button>
           </li>
         </ul>
       </nav>
-      <nav class="nav-2">
-        hello
-      </nav>
       <section>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero sint non voluptatem, a tempora at repudiandae! Nobis odio laborum assumenda, officia animi magnam dolor illum! Voluptatum debitis corporis iusto amet?
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero sint non voluptatem, a tempora at repudiandae! Nobis odio laborum assumenda, officia animi magnam dolor illum! Voluptatum debitis corporis iusto amet?
-        </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum officia officiis dolor, odit neque veniam molestias id harum modi qui, vitae exercitationem cumque, molestiae quas corrupti! Suscipit quis distinctio delectus?</p>
       </section>
     </div>
+    <script>
+      console.log(1)
+      function handleBtn() {
+        console.log('handleBtn')
+      }
+    </script>
   </body>
 </html>
