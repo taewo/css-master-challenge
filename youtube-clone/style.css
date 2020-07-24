@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 14px;
+	height: 200vh;
+	background: gray;
+}
+nav {
+	border: 1px solid red;
+	height: 56px;
+}
+aside {
+	width: 14rem;
+	height: 100%;
+	border: 1px solid blue;
+	display: inline-block;
+}
+section {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	border: 1px solid green;
+}
+.main {
+	display: flex;
+	height: 100%;
+}
+section {
+	display: flex;
+	flex-wrap: wrap;
+}
+.content {
+	border: 1px solid black;
+}
+
+@media screen and (max-width: 1330px) {
+	body {
+		background: blue;
+	}
+}
+
+@media screen and (max-width: 810px) {
+	body {
+		background: peru;
+	}
+}
