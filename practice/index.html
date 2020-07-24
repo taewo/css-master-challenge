@@ -4,40 +4,39 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
+    <link href="reset.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   </head>
   <body>
-    <div class="container">
-      <nav>
-        <ul class="nav">
-          <li>home</li>
-          <li>news</li>
-          <li>contact</li>
-          <li>dropdown
-            <i class="fa fa-caret-down"></i>
-            <div class="dropdown">
-              <div>1</div>
-              <div>2</div>
-              <div>3</div>
-            </div>
-          </li>
-          <li>about</li>
-          <li class="btn-icon">
-            <button onclick="handleBtn()">&#9776;</button>
-          </li>
-        </ul>
-      </nav>
-      <section>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum officia officiis dolor, odit neque veniam molestias id harum modi qui, vitae exercitationem cumque, molestiae quas corrupti! Suscipit quis distinctio delectus?</p>
-      </section>
-    </div>
-    <script>
-      console.log(1)
-      function handleBtn() {
-        console.log('handleBtn')
-      }
-    </script>
+    <nav class="nav">
+      <div>
+        <a href="">logo</a>
+      </div>
+      <ul class="nav-list ">
+        <li>
+          <a href="">home</a>
+        </li>
+        <li>
+          <a href="">product</a>
+        </li>
+        <li>
+          <a href="">about us</a>
+        </li>
+        <li>
+          <a href="">contact us</a>
+        </li>
+        <li>
+          <a href="">blog</a>
+        </li>
+      </ul>
+      <button onclick="toggle()">+++</button>
+    </nav>
   </body>
+  <script>
+    function toggle (){
+      console.log('toggle')
+      const el = document.querySelector('.nav-list')
+      el.classList.toggle('show')
+    }
+  </script>
 </html>
