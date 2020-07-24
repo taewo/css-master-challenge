@@ -1,0 +1,62 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"); */
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif;
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+	grid-auto-flow: auto;
+}
+div {
+	display: grid;
+	place-items: center;
+	text-align: center;
+}
+body > div:nth-child(1) {
+	background: antiquewhite;
+}
+body > div:nth-child(2) {
+	background-image: url('https://www.caremanagementmatters.co.uk/wp-content/uploads/2018/11/Image-6-keep-it-simple-light-bulbs.jpg');
+	background-size: cover;
+	background-position: center;
+}
+body > div:nth-child(3) {
+	background: #fe4814;
+}
+body > div:nth-child(4) {
+	background-image: url('https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+	background-size: cover;
+	background-position: center;
+}
+body > div:nth-child(5) {
+	background: #847f96;
+}
+body > div:nth-child(6) {
+	background: #d0ff71;
+}
+body > div:nth-child(7) {
+	background: #993433;
+}
+body > div:nth-child(8) {
+	background: #3aa9fa;
+}
+body > div:nth-child(9) {
+	background-image: url('https://i.pinimg.com/originals/e8/33/d1/e833d10c4d4c8a7108c38738b0ded76d.jpg');
+	background-size: cover;
+	background-position: center;
+}
+body > div:nth-child(10) {
+	background: #41907a;
+}
+body > div:nth-child(11) {
+	background-image: url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Circle-Simple-Background-Image-1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+body > div:nth-child(12) {
+	background: #e3c4e4;
+}
